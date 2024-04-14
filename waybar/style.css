@@ -1,0 +1,143 @@
+* {
+	border: none;
+	font-family: "PxPlus IBM VGA 9x16";
+	font-size: 16px;
+	min-height: 16px;
+	border-radius: 12px;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+window#waybar.hidden {
+	opacity: 0.2;
+}
+
+#window {
+	margin-top: 12px;
+	margin-bottom: 0px;
+	padding-left: 12px;
+	padding-right: 12px;
+	transition: none;
+	color: transparent;
+	background: transparent;
+}
+
+#workspaces {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	background-color: #282a36;
+	transition: none;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#workspaces button {
+	transition: none;
+	color: #f8f8f2;
+	background: transparent;
+	font-size: 16px;
+}
+
+#workspaces button.active {
+	color: #fabd2f;
+}
+
+#workspaces button:hover {
+	transition: none;
+	box-shadow: none;
+	text-shadow: none;
+	color: #b8bb26;
+}
+
+#battery { margin-top: 12px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	margin-left: 6px;
+	padding-left: 6px;
+	padding-right: 16px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+ 
+#network {
+	margin-top: 12px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	margin-left: 6px;
+	padding-left: 6px;
+	padding-right: 16px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#pulseaudio {
+	margin-top: 12px;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 16px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#tray {
+	margin-right: 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 6px;
+	padding-left: 16px;
+	padding-right: 16px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#temperature {
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#clock {
+	margin-top: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#backlight {
+	margin-top: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
