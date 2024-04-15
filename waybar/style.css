@@ -98,7 +98,7 @@ window#waybar.hidden {
 	animation-direction: alternate;
 }
 
-#battery.full {
+#battery.full:not(.charging) {
 	background: #78740e;
 	color: #f8f8f2;
 }
