@@ -1,5 +1,6 @@
 {
 	"layer": "top",
+	"position": "bottom",
 	"modules-left": ["hyprland/workspaces", "network"],
 	"modules-center": ["clock"],
 	"modules-right": ["pulseaudio", "backlight", "temperature", "battery", "tray"],
@@ -41,7 +42,7 @@
 	"battery": {
 		"interval": 1,
 		"tooltip": false,
-		"format": "{icon} {capacity}%",
+		"format": " {icon} {capacity}%",
 		"format-charging": " 󱐋 {capacity}%",
 		"format-icons": {
 			"default": ["󰁻","󰁽","󰁿","󰂁","󰁹"]
