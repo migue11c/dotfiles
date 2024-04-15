@@ -23,10 +23,21 @@ window#waybar.hidden {
 	color: transparent;
 	background: transparent;
 }
+ 
+#cava {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	background-color: #282a36;
+	transition: none;
+	box-shadow: 0 0 4px #282a36;
+}
 
 #workspaces {
 	margin-top: 12px;
 	margin-left: 12px;
+	margin-right: 6px;
 	margin-bottom: 12px;
 	background-color: #282a36;
 	transition: none;
@@ -81,7 +92,7 @@ window#waybar.hidden {
 	margin-right: 6px;
 	margin-left: 6px;
 	margin-bottom: 12px;
-	padding-left: 12px;
+	padding-left: 6px;
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;

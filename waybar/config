@@ -1,14 +1,14 @@
 {
 	"layer": "top",
-	"modules-left": ["hyprland/workspaces"],
+	"modules-left": ["hyprland/workspaces", "network"],
 	"modules-center": ["clock"],
-	"modules-right": ["network", "pulseaudio", "backlight", "temperature", "battery", "tray"],
+	"modules-right": ["pulseaudio", "backlight", "temperature", "battery", "tray"],
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
-		"format": "{icon} {volume}%",
+		"format": " {icon} {volume}%",
 		"format-icons": {
-			"default": ["奄", "奔", "墳"]
+			"default": ["󰕿", "󰖀", "󰕾"]
 		}
 	},
 	"clock": {
@@ -18,24 +18,38 @@
 	"network": {
 		"tooltip": false,
 		"format-wifi": "   {essid} {ipaddr}",
-		"format-ethernet": " {ipaddr}"
+		"format-ethernet": "󰈁 {ipaddr}"
 	},
 	"backlight": {
 		"tooltip": false,
 		"scroll-step": 5,
-		"device": "intel_backlight"
+		"device": "intel_backlight",
+		"format": "{icon} {}%",
+		"format-icons": {
+			"default": ["󰃞","󰃟","󰃠"]
+		}
 	},
 	"temperature": {
 		"thermal-zone": 1,
 		"tooltip": false,
-		"interval": 0.1,
+		"interval": 1,
 		"format": "{temperatureC}°C"
 	},
 	"tray": {
-		"spacing": 8
+		"spacing": 5
 	},
 	"battery": {
-		"format": " {capacity}%"
+		"interval": 1,
+		"tooltip": false,
+		"format": "{icon} {capacity}%",
+		"format-charging": " 󱐋 {capacity}%",
+		"format-icons": {
+			"default": ["󰁻","󰁽","󰁿","󰂁","󰁹"]
+		},
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
 	},
 }
 
