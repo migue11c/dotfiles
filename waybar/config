@@ -48,7 +48,8 @@
 			"default": ["󰁻","󰁽","󰁿","󰂁","󰁹"]
 		},
 		"states": {
-			"warning": 30,
+			"full": 100,
+			"discharging": 90,
 			"critical": 15,
 		},
 	},
