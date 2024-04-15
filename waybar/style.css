@@ -73,6 +73,40 @@ window#waybar.hidden {
 	background: #282a36;
 	box-shadow: 0 0 4px #282a36;
 }
+
+@keyframes charging {
+	to {
+		background: #78740e;
+		color: #f8f8f2;
+	}
+}
+
+@keyframes blink {
+	to {
+		background: #cc241d;
+		color: #f8f8f2;
+	}
+}
+
+#battery.charging, #battery.plugged {
+	background: #282a36;
+	color: #f8f8f2;
+	animation-name: charging;
+	animation-duration: 1s;
+	animation-timing-function: steps(24);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#battery.critical:not(.charging) {
+	background: #282a36;
+	color: #f8f8f2;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: steps(12);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
  
 #network {
 	margin-top: 12px;
