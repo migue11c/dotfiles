@@ -2,7 +2,7 @@
 
 ## Quick explanation
 
-Dotfiles are configuration files stored in the hidden '.config' directory.
+Dotfiles are configuration files stored in the hidden `.config` directory.
 This repo has configurations for the following packages:
 
 - hyprland
