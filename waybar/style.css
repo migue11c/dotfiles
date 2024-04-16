@@ -77,20 +77,21 @@ window#waybar.hidden {
 
 @keyframes charging {
 	to {
-		background: #78740e;
+		/*background: #78740e;*/
+		background-image: linear-gradient(to bottom right, #78740e, #282a36);
 		color: #f8f8f2;
 	}
 }
 
 @keyframes blink {
 	to {
-		background: #cc241d;
+		background-image: linear-gradient(to bottom right, #cc241d, #282a36);
 		color: #f8f8f2;
 	}
 }
 
 #battery.charging, #battery.plugged {
-	background: #282a36;
+	background-image: linear-gradient(to bottom right, #282a36, #78740e);
 	color: #f8f8f2;
 	animation-name: charging;
 	animation-duration: 1s;
@@ -100,12 +101,13 @@ window#waybar.hidden {
 }
 
 #battery.full:not(.charging) {
-	background: #78740e;
+	/*background: #78740e;*/
+	background-image: linear-gradient(to bottom right, #282a36, #78740e);
 	color: #f8f8f2;
 }
 
 #battery.critical:not(.charging) {
-	background: #282a36;
+	background-image: linear-gradient(to bottom right, #282a36, #cc241d);
 	color: #f8f8f2;
 	animation-name: blink;
 	animation-duration: 0.5s;
