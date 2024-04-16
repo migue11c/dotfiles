@@ -41,3 +41,8 @@ Waybar has 2 configuration files. `style.css` is for the look while `config` is 
 Hyprland has a few tweaks that make waybar work as intended.
 - Please make sure to use `hyprctl monitors` to configure your monitor.
 - If you plan to move the bar from `top` to `bottom` of the screen in `~/.config/waybar/config`, make sure to adjust the line 19 in `~/.config/hypr/hyprland.conf`. This line makes sure that the gap between the bar and windows isnt too large.
+
+## TO DO
+
+- Stylize the rest of the bar
+- Configure rofi and add it to the repo
