@@ -1,6 +1,6 @@
-#Michael's Hyprland dotfiles
+# Michael's Hyprland dotfiles
 
-##Quick explanation
+## Quick explanation
 
 Dotfiles are configuration files stored in the hidden '.config' directory.
 This repo has configurations for the following packages:
@@ -18,7 +18,7 @@ cp -r ~/dotfiles/* ~/.config/
 
 You can also drag and drop the folders you want to have a configuration for.
 
-##Dependencies
+## Dependencies
 For the complete copy to work properly you need to install the following packages:
 
 - hyprland
@@ -34,7 +34,7 @@ For the complete copy to work properly you need to install the following package
 
 The waybar config itself only requires the nerd font and pxplus one, if that is all you are interested in.
 
-##CUSTOMIZATION
+## Customization
 
 The customization is relatively simple:
 Waybar has 2 configuration files. `style.css` is for the look while `config` is for the layout.
