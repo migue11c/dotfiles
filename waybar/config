@@ -1,6 +1,6 @@
 {
 	"layer": "top",
-	"position": "bottom",
+	"position": "top",
 	"modules-left": ["hyprland/workspaces", "network"],
 	"modules-center": ["clock"],
 	"modules-right": ["pulseaudio", "backlight", "temperature", "battery", "tray"],
@@ -15,6 +15,15 @@
 	"clock": {
 		"tooltip": false,
 		"format": "{:%R %a %D}"
+	},
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 16,
+		"icon-theme": "Numix-Circle",
+		"tooltip": false,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
 	},
 	"network": {
 		"tooltip": false,

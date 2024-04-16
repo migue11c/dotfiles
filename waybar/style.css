@@ -15,8 +15,8 @@ window#waybar.hidden {
 }
 
 #window {
-	margin-top: 12px;
-	margin-bottom: 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
 	transition: none;
@@ -24,16 +24,6 @@ window#waybar.hidden {
 	background: transparent;
 }
  
-#cava {
-	margin-top: 12px;
-	margin-left: 12px;
-	margin-right: 6px;
-	margin-bottom: 12px;
-	background-color: #282a36;
-	transition: none;
-	box-shadow: 0 0 4px #282a36;
-}
-
 #workspaces {
 	margin-top: 12px;
 	margin-left: 12px;
@@ -60,6 +50,17 @@ window#waybar.hidden {
 	box-shadow: none;
 	text-shadow: none;
 	color: #b8bb26;
+}
+
+#taskbar { margin-top: 12px;
+	margin-right: 6px;
+	margin-bottom: 12px;
+	margin-left: 6px;
+	padding-left: 6px;
+	padding-right: 16px;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
 }
 
 #battery { margin-top: 12px;
