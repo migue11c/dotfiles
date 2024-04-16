@@ -1,31 +1,43 @@
-IN CASE YOU ARE JUST COPYING:
+#Michael's Hyprland dotfiles
 
-I'm using Alacritty as the terminal and Nemo as the file manager. Make sure to change it around to your liking.
-I've included my alacritty config if you want it,
-just make sure you install PxPlus IBM VGA 9x16 if you like how it looks.
-You can mess with the colors, i just used the gruvbox ones.
+##Quick explanation
 
-also make sure to use "hyprctl monitors" to configure your monitors.
-Monitor config is at the very top of /hypr/hyprland.conf
+Dotfiles are configuration files stored in the hidden '.config' directory.
+This repo has configurations for the following packages:
 
-The waybar isn't necessarily done, especially the lack of icons.
-Go to nerd fonts, patch up your own and copy the characters into /waybar/config
+- hyprland
+- alacritty (terminal)
+- waybar (the bar)
 
-Also go to /hypr/start.sh and change your path for a wallpaper after the "swww init"
+To copy my complete configuration setup:
 
-TLDR: required installs
- -waybar
- -hyprland
- -dunst
- -swww
- -alacritty
- -nemo
- -grimblast
- -rofi
- -brightnessctl
+```
+git clone https://github.com/migue11c/dotfiles
+cp -r ~/dotfiles/* ~/.config/
+```
 
-IN CASE YOU'RE JUST GETTING SOME STUFF:
+You can also drag and drop the folders you want to have a configuration for.
 
-hyprland.conf line 19: removing the extra gap caused by gaps_out (hyprland) and margin for box shadow (waybar)
-hyprland also configured to dim windows instead of having borders (line 67)
-to customize waybar to your liking, most elements in css are same, just watch for margin-left and right.waybar config needs extra work.
+##Dependencies
+For the complete copy to work properly you need to install the following packages:
+
+- hyprland
+- waybar
+- alacritty
+- rofi (run prompt)
+- swww (wallpaper)
+- grimblast (screenshot)
+- nemo (file manager)
+- dunst
+- nerdfont (icons)
+- PxPlus IBM VGA 9x16 font
+
+The waybar config itself only requires the nerd font and pxplus one, if that is all you are interested in.
+
+##CUSTOMIZATION
+
+The customization is relatively simple:
+Waybar has 2 configuration files. `style.css` is for the look while `config` is for the layout.
+Hyprland has a few tweaks that make waybar work as intended.
+- Please make sure to use `hyprctl monitors` to configure your monitor.
+- If you plan to move the bar from `top` to `bottom` of the screen in `~/.config/waybar/config`, make sure to adjust the line 19 in `~/.config/hypr/hyprland.conf`. This line makes sure that the gap between the bar and windows isnt too large.
