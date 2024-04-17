@@ -1,5 +1,7 @@
 # Michael's Hyprland dotfiles
 
+https://github.com/migue11c/dotfiles/assets/166963681/a8ffcd59-c312-4d10-8371-ebb37503ac2d
+
 ## Quick explanation
 
 Dotfiles are configuration files stored in the hidden `.config` directory.
