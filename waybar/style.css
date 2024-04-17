@@ -78,7 +78,7 @@ window#waybar.hidden {
 @keyframes charging {
 	to {
 		/*background: #78740e;*/
-		background-image: linear-gradient(-45deg, #78740e, #282a36);
+		background-image: linear-gradient(135deg, #78740e, #282a36);
 		color: #f8f8f2;
 	}
 }
@@ -94,8 +94,8 @@ window#waybar.hidden {
 	background-image: linear-gradient(-45deg, #282a36, #78740e);
 	color: #f8f8f2;
 	animation-name: charging;
-	animation-duration: 1s;
-	animation-timing-function: steps(24);
+	animation-duration: 2s;
+	animation-timing-function: cubic-bezier(.34,.01,.7,.74) ,steps(24);
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
