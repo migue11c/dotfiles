@@ -85,7 +85,7 @@ window#waybar.hidden {
 
 @keyframes blink {
 	to {
-		background-image: linear-gradient(-45deg, #cc241d, #282a36);
+		background-image: linear-gradient(135deg, #cc241d, #282a36);
 		color: #f8f8f2;
 	}
 }
@@ -95,7 +95,7 @@ window#waybar.hidden {
 	color: #f8f8f2;
 	animation-name: charging;
 	animation-duration: 2s;
-	animation-timing-function: cubic-bezier(.34,.01,.7,.74) ,steps(24);
+	animation-timing-function: cubic-bezier(.34,.01,.7,.74);
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
@@ -110,8 +110,9 @@ window#waybar.hidden {
 	background-image: linear-gradient(-45deg, #282a36, #cc241d);
 	color: #f8f8f2;
 	animation-name: blink;
-	animation-duration: 0.5s;
-	animation-timing-function: steps(12);
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(.34,.01,.7,.74);
+	/*animation-timing-function: steps(12);*/
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
