@@ -49,3 +49,4 @@ Hyprland has a few tweaks that make waybar work as intended.
 - Stylize the rest of the bar
 - Configure rofi and add it to the repo
 - Add a rofi power menu
+- Finish up the notepad termnial instance
