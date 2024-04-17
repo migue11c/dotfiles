@@ -182,6 +182,7 @@ window#waybar.hidden {
 }
 
 #backlight {
+	/*background-image: linear-gradient(to bottom right, #282a36, #928374);*/
 	margin-top: 12px;
 	margin-left: 6px;
 	margin-right: 6px;
