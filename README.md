@@ -20,12 +20,12 @@ $ cp -r ~/dotfiles/* ~/.config/
 
 You can also drag and drop the folders you want to have a configuration for.
 
-## Keybinds:
+## Adjusted hyprland keybinds:
 
-Mod-r Rofi drun prompt
-Mod-e File manager
-Mod-w Rotate window splitting
-Mod-n Vim instance for notetaking
+- Mod-r Rofi drun prompt
+- Mod-e File manager
+- Mod-w Rotate window splitting
+- Mod-n Vim instance for notetaking
 
 # If you don't know how to use vim:
 ```
