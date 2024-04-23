@@ -10,7 +10,10 @@
 		"format": " {icon} {volume}%",
 		"format-icons": {
 			"default": ["󰕿", "󰖀", "󰕾"]
-		}
+		},
+		"format-muted": " 󰝟 Muted",
+		"format-bluetooth": " 󰂯 {volume}%",
+		"on-click": "pavucontrol"
 	},
 	"clock": {
 		"tooltip": false,

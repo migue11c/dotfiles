@@ -33,6 +33,7 @@ For the complete copy to work properly you need to install the following package
 - dunst
 - nerdfont (icons)
 - PxPlus IBM VGA 9x16 font
+- pavucontrol (volume control)
 
 The waybar config itself only requires the nerd font and pxplus one, if that is all you are interested in.
 
