@@ -3,32 +3,32 @@ WINIT_X11_SCALE_FACTOR = "1.0"
 
 [colors.bright]
 black = "#928374"
-blue = "#83A598"
-cyan = "#8EC07C"
-green = "#B8BB26"
-magenta = "#D3869B"
-red = "#FB4934"
-white = "#EBDBB2"
-yellow = "#FABD2F"
+blue = "#83a598"
+cyan = "#8ec07c"
+green = "#b8bb26"
+magenta = "#d3869b"
+red = "#fb4934"
+white = "#FFFFFF"
+yellow = "#fabd2f"
 
 [colors.normal]
 black = "#282828"
-blue = "#458588"
-cyan = "#689D6A"
-green = "#98971A"
-magenta = "#B16286"
-red = "#CC241D"
-white = "#A89984"
-yellow = "#D79921"
+blue = "#83a598"
+cyan = "#b8bb26"
+green = "#83a598"
+magenta = "#fb4934"
+red = "#fabd2f"
+white = "#a89984"
+yellow = "#d79921"
 
 [colors.primary]
-background = "#ffffff"
+background = "#2f2f2f"
 
 [font]
 size = 12
 
 [font.normal]
-#family = "Unifont"
+#family = "Ubuntu Mono"
 family = "PxPlus IBM VGA 9x16"
 
 [[keyboard.bindings]]
@@ -46,7 +46,7 @@ save_to_clipboard = true
 
 [window]
 decorations = "none"
-opacity = 0.1
+opacity = 0.3
 resize_increments = true
 
 [window.dimensions]
