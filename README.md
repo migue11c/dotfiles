@@ -14,11 +14,31 @@ This repo has configurations for the following packages:
 To copy my complete configuration setup:
 
 ```
-git clone https://github.com/migue11c/dotfiles
-cp -r ~/dotfiles/* ~/.config/
+$ git clone https://github.com/migue11c/dotfiles
+$ cp -r ~/dotfiles/* ~/.config/
 ```
 
 You can also drag and drop the folders you want to have a configuration for.
+
+## Keybinds:
+
+Mod-r Rofi drun prompt
+Mod-e File manager
+Mod-w Rotate window splitting
+Mod-n Vim instance for notetaking
+
+# If you don't know how to use vim:
+```
+$ nano .config/hypr/hyprland.conf
+
+```
+Go to the line 154:
+```
+bind = $mainMod, N, exec, [floating] alacritty --config-file ~/.config/alacritty/white.toml -e vim
+```
+Change 'vim' to 'nano'.
+Go to the last line and do the same.
+
 
 ## Dependencies
 For the complete copy to work properly you need to install the following packages:
