@@ -1,0 +1,6 @@
+configuration {
+	font: "PxPlus IBM VGA 9x16 12";
+	show-icons: true;
+        location: 6;
+}
+
