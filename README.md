@@ -1,4 +1,5 @@
-# Michael's Hyprland dotfiles
+# Michael's Hyprland dotfiles V1.1
+now with rofi!
 
 ![Demonstration video](https://github.com/migue11c/dotfiles/assets/166963681/a8ffcd59-c312-4d10-8371-ebb37503ac2d)
 
@@ -10,6 +11,7 @@ This repo has configurations for the following packages:
 - hyprland
 - alacritty (terminal)
 - waybar (the bar)
+- rofi (application runner)
 
 To copy my complete configuration setup:
 
@@ -27,7 +29,7 @@ You can also drag and drop the folders you want to have a configuration for.
 - Mod-w Rotate window splitting
 - Mod-n Vim instance for notetaking
 
-# If you don't know how to use vim:
+## If you don't know how to use vim:
 ```
 $ nano .config/hypr/hyprland.conf
 
@@ -67,6 +69,7 @@ Hyprland has a few tweaks that make waybar work as intended.
 
 ## TO DO
 
+- Configure rofi a bit more
 - Stylize the rest of the bar
 - Configure rofi and add it to the repo
 - Add a rofi power menu
