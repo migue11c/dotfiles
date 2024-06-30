@@ -1,4 +1,4 @@
-# Michael's Hyprland dotfiles V1.1
+# Michael's Hyprland dotfiles V1.2
 now with rofi!
 
 ![Demonstration video](https://github.com/migue11c/dotfiles/assets/166963681/a8ffcd59-c312-4d10-8371-ebb37503ac2d)
@@ -9,7 +9,8 @@ Dotfiles are configuration files stored in the hidden `.config` directory.
 This repo has configurations for the following packages:
 
 - hyprland
-- alacritty (terminal)
+- kitty (terminal)
+- alacritty (old terminal, will be removed in a few commits)
 - waybar (the bar)
 - rofi (application runner)
 
@@ -47,6 +48,7 @@ For the complete copy to work properly you need to install the following package
 
 - hyprland
 - waybar
+- kitty
 - alacritty
 - rofi (run prompt)
 - swww (wallpaper)
@@ -56,6 +58,8 @@ For the complete copy to work properly you need to install the following package
 - nerdfont (icons)
 - PxPlus IBM VGA 9x16 font
 - pavucontrol (volume control)
+- nwg-look (or any other gtk theme software, im still looking for the qt one)
+- lxqt-policykit-agent (gui sudo prompt)
 
 The waybar config itself only requires the nerd font and pxplus one, if that is all you are interested in.
 
@@ -71,6 +75,5 @@ Hyprland has a few tweaks that make waybar work as intended.
 
 - Configure rofi a bit more
 - Stylize the rest of the bar
-- Configure rofi and add it to the repo
 - Add a rofi power menu
 - Finish up the notepad termnial instance
