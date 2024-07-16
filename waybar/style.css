@@ -17,8 +17,8 @@ window#waybar.hidden {
 #window {
 	padding-top: 12px;
 	padding-bottom: 12px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
 	transition: none;
 	color: transparent;
 	background: transparent;
@@ -29,6 +29,7 @@ window#waybar.hidden {
 	margin-left: 12px;
 	margin-right: 6px;
 	margin-bottom: 12px;
+	/*background: rgba(40, 42, 54, 0);*/
 	background-color: #282a36;
 	transition: none;
 	box-shadow: 0 0 4px #282a36;
@@ -56,7 +57,7 @@ window#waybar.hidden {
 	margin-right: 6px;
 	margin-bottom: 12px;
 	margin-left: 6px;
-	padding-left: 6px;
+	padding-left: 16px;
 	padding-right: 16px;
 	color: #f8f8f2;
 	background: #282a36;
@@ -67,7 +68,7 @@ window#waybar.hidden {
 	margin-right: 6px;
 	margin-bottom: 12px;
 	margin-left: 6px;
-	padding-left: 6px;
+	padding-left: 16px;
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
@@ -75,7 +76,7 @@ window#waybar.hidden {
 	box-shadow: 0 0 4px #282a36;
 }
 
-@keyframes charging {
+@keyframes charge {
 	to {
 		/*background: #78740e;*/
 		background-image: linear-gradient(135deg, #78740e, #282a36);
@@ -93,7 +94,7 @@ window#waybar.hidden {
 #battery.charging, #battery.plugged {
 	background-image: linear-gradient(-45deg, #282a36, #78740e);
 	color: #f8f8f2;
-	animation-name: charging;
+	animation-name: charge;
 	animation-duration: 2s;
 	animation-timing-function: cubic-bezier(.34,.01,.7,.74);
 	animation-iteration-count: infinite;
@@ -122,7 +123,7 @@ window#waybar.hidden {
 	margin-right: 6px;
 	margin-bottom: 12px;
 	margin-left: 6px;
-	padding-left: 6px;
+	padding-left: 16px;
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
@@ -135,7 +136,20 @@ window#waybar.hidden {
 	margin-right: 6px;
 	margin-left: 6px;
 	margin-bottom: 12px;
-	padding-left: 6px;
+	padding-left: 16px;
+	padding-right: 16px;
+	transition: none;
+	color: #f8f8f2;
+	background: #282a36;
+	box-shadow: 0 0 4px #282a36;
+}
+
+#language {
+	margin-top: 12px;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 12px;
+	padding-left: 16px;
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
@@ -161,8 +175,8 @@ window#waybar.hidden {
 	margin-left: 6px;
 	margin-top: 12px;
 	margin-bottom: 12px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
 	background: #282a36;
@@ -188,8 +202,8 @@ window#waybar.hidden {
 	margin-left: 6px;
 	margin-right: 6px;
 	margin-bottom: 12px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
 	background: #282a36;

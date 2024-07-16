@@ -1,5 +1,6 @@
-# Michael's Hyprland dotfiles V1.2
-now with rofi!
+# Michael's Hyprland dotfiles V1.3
+now with keyboard switching!
+(configure in ~/.config/hypr/hyprland.conf, default keybind ALT+SPACE)
 
 ![Demonstration video](https://github.com/migue11c/dotfiles/assets/166963681/a8ffcd59-c312-4d10-8371-ebb37503ac2d)
 
@@ -62,6 +63,8 @@ For the complete copy to work properly you need to install the following package
 - lxqt-policykit-agent (gui sudo prompt)
 
 The waybar config itself only requires the nerd font and pxplus one, if that is all you are interested in.
+
+GTK theme is Mint-Yz Dark (any color), cursor is Bibata Modern Ice
 
 ## Customization
 
