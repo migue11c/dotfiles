@@ -204,7 +204,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
