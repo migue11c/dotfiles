@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 swww init &
-swww img ~/Pictures/Wallpapers/Europa.png &
+swww img ~/Pictures/Wallpapers/bana.jpg &
 nm-applet --indicator &
 blueman-applet &
 waybar &
-dunst
+dunst &
+lxqt-policykit-agent
 

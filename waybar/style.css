@@ -29,8 +29,7 @@ window#waybar.hidden {
 	margin-left: 12px;
 	margin-right: 6px;
 	margin-bottom: 12px;
-	/*background: rgba(40, 42, 54, 0);*/
-	background-color: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	transition: none;
 	box-shadow: 0 0 4px #282a36;
 }
@@ -38,7 +37,6 @@ window#waybar.hidden {
 #workspaces button {
 	transition: none;
 	color: #f8f8f2;
-	background: transparent;
 	font-size: 16px;
 }
 
@@ -60,7 +58,7 @@ window#waybar.hidden {
 	padding-left: 16px;
 	padding-right: 16px;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
@@ -127,7 +125,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
@@ -140,7 +138,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
@@ -153,7 +151,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
@@ -166,7 +164,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
@@ -179,7 +177,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
@@ -192,7 +190,7 @@ window#waybar.hidden {
 	padding-right: 16px;
 	transition: none;
 	color: #f8f8f2;
-	background: #282a36;
+	background: rgba(0, 0, 0, 0.65);
 	box-shadow: 0 0 4px #282a36;
 }
 
